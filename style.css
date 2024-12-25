@@ -1,0 +1,80 @@
+.name {
+    color: brown;
+}
+
+.button {
+    color: blanchedalmond;
+    background-color: rgb(204, 75, 204);
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+    text-align: center;
+    margin: 0; 
+}
+
+.button:hover {
+    background-color: blue;
+    color: aqua;
+}
+
+.profile {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: 67%;
+    margin-top: 32px;
+    margin-left: 70px;
+    transform: translateX(-90%) scale(1.2)
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 370px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 10px; 
+    margin-top: 20px;
+    margin-left: 490px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; 
+    margin-left: 100px;
+}
+
+body {
+    background-image: url(https://img.freepik.com/premium-vector/simple-gradient-color-frame-template-business-presentations_336924-5378.jpg?ga=GA1.1.684393790.1734342433&semt=ais_hybrid);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    margin-left: 100px; 
+    padding: 20px;
+}
+
+.home-button {
+    display: block;
+    margin: 20px auto;
+}
